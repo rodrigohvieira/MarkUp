@@ -4,7 +4,7 @@ Projeto de uma página de divulgação com o objetivo de realizar captação de 
 
 ## 🚀 Imagens
 
-<div style="width:100%;height:0;padding-bottom:44%;position:relative;"><iframe src="https://giphy.com/embed/ikLOImwW9EtBAEJAIf" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/ikLOImwW9EtBAEJAIf">via GIPHY</a></p>
+<img src="https://media.giphy.com/media/ikLOImwW9EtBAEJAIf/giphy.gif" width="1000" />
 
 ### 📋 Pré-requisitos
 
