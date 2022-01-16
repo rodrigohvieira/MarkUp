@@ -1,0 +1,146 @@
+/*
+    Header
+*/
+
+/* Configuração background, alinhamento e espaçamento do header */
+
+header {
+  background: var(--color-background-color-title);
+
+  text-align: center;
+  padding: 10px;
+}
+
+/* Definição do tamanho da fonte do header */
+
+.title {
+  font-size: 28px;
+}
+
+/*
+    SECTION
+*/
+
+/* Configuração do background da section */
+
+section {
+  color: var(--color-text-section);
+  background-image: url(../images/people.jpg);
+  background-size: cover;
+  overflow: hidden;
+
+  padding: 20px;
+}
+
+/* Configuração do container que possui o formulário */
+
+.formContainer {
+  background: var(--color-background-color-formContainer);
+
+  max-width: 230px;
+  padding: 20px;
+  float: right;
+}
+
+/* Definição do tamanho da fonte do h2 */
+
+h2 {
+  font-size: 16px;
+}
+
+/* Definição das margens inferiores do h2 e p */
+
+.mb {
+  margin-bottom: 15px;
+}
+
+/* Configuração dos botões do tipo submit */
+
+input[type="submit"] {
+  color: var(--color-text-body);
+  background: var(--color-background-color-title);
+
+  font-weight: bold;
+}
+
+/* Configuração do botão select */
+
+select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+
+  background-image: url(../images/arrow.jpg);
+  background-repeat: no-repeat;
+  background-position: calc(100% - 10px) center;
+}
+
+/*
+    FOOTER
+*/
+
+/* Configuração do background e alinhamento do footer */
+
+footer {
+  background: var(--color-background-color-footer);
+
+  padding: 40px;
+  text-align: center;
+}
+
+/* Configuração do tamanho da imagem do palestrante */
+
+.picture {
+  width: 160px;
+}
+
+/* Configuração do alinhamento, tamanho do titulo e descrição do footer*/
+
+.description {
+  display: inline-block;
+  max-width: 40%;
+  margin-left: 40px;
+  text-align: left;
+}
+
+.description p,
+h3 {
+  margin-bottom: 20px;
+}
+
+.description h3 {
+  font-size: 24px;
+}
+
+/*
+    RESPONSIVIDADE
+*/
+
+@media (max-width: 600px) {
+  /*
+        SECTION
+  */
+
+  /* Define que o formulário ocupe toda tela em dispositivos pequenos */
+
+  .formContainer {
+    background: var(--color-background-color-formContainer);
+
+    max-width: 500px;
+    padding: 20px;
+  }
+
+  /*
+        FOOTER  
+  */
+
+  /* Define que a descrição seja alinhada na vertical em dispositivos pequenos */
+
+  .description {
+    display: block;
+    max-width: 100%;
+    margin-left: 0px;
+    margin-top: 20px;
+    text-align: left;
+  }
+}
